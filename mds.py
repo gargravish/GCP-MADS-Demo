@@ -32,19 +32,12 @@ else:
 
 st.set_page_config(page_title='GCP DEMO - MDS4IC', page_icon=':smiley:')
 
-API_KEY='AIzaSyAZ0o_ltcZMKXXdbBFQKdCXfvgX1W6R5XM'
+API_KEY= << ... PUT YOUR OWN API KEYS ...>>
 googlemaps=googlemaps.Client(key=API_KEY)
 gmaps.configure(api_key=API_KEY)
 
 firebaseConfig = {
-    "apiKey": "AIzaSyB--8W1QliT77jFqyd4FW_8A3BWGTHUSg4",
-    "authDomain": "raves-ce.firebaseapp.com",
-    "databaseURL": "https://raves-ce-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "projectId": "raves-ce",
-    "storageBucket": "raves-ce.appspot.com",
-    "messagingSenderId": "162449597182",
-    "appId": "1:162449597182:web:cb49cac8bf3de56582bbaf",
-    "measurementId": "G-21NKR4438Y"
+ << ... PUT YOUR OWN ENVIRONMENT VARIABLES ...>>
     }
 
 page_bg_img = """
